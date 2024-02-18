@@ -1,0 +1,19 @@
+.main-title {
+    color: $HeadingTxt;
+    font-weight: 900;
+    font-size: 64px;
+    text-transform: capitalize;
+}
+
+.main-subtitle {
+    color: $txtColor;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.hero__description {
+    color: $txtColor;
+    font-weight: 400;
+    font-size: 20px;
+}
