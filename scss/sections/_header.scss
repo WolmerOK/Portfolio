@@ -34,12 +34,7 @@
     transition: 0.3s;
 }
 
-@media (hover:hover) {
-    .anchor-link:hover {
-        color: $HeadingTxt;
-        cursor: pointer;
-    }
-}
+@include hover-link ($HeadingTxt);
 
 .anchor-link:active {
     color: $HeadingTxt;

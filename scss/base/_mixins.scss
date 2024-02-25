@@ -1,0 +1,8 @@
+@mixin hover-link ($color) {
+    @media (hover:hover) {
+        .anchor-link:hover {
+            color: $color;
+            cursor: pointer;
+        }
+    }
+}
