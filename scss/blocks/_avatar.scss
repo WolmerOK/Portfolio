@@ -13,6 +13,11 @@
     left: 50%;
 }
 
+.avatar__img {
+    height: auto;
+    width: auto;
+}
+
 .avatar__element--photo {
     overflow: hidden;
     transform: translate(-50%,-50%);
