@@ -1,0 +1,39 @@
+.avatar {
+    width: 629px;
+    height: 575px;
+    position: relative;
+}
+
+.avatar__element {
+    width: 370px;
+    height: 370px;
+    border-radius: 32% 68% 63% 28% / 78% 71% 38% 29% ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.avatar__img {
+    height: auto;
+    width: auto;
+}
+
+.avatar__element--photo {
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+
+.avatar__element--color {
+    transform: translate(-50%,-50%) rotate(30deg);
+    background-color: $contextColor;
+    opacity: 0.72;
+    z-index: 2;
+}
+
+.avatar__element--uncolor {
+    transform: translate(-50%,-50%) rotate(-25deg);
+    background-color: $txtColor;
+    opacity: 0.72;
+    z-index: 1;
+}

@@ -31,4 +31,11 @@
     font-weight: bold;
     text-transform: capitalize;
     color: $txtColor;
+    transition: 0.3s;
+}
+
+@include hover-link ($HeadingTxt);
+
+.anchor-link:active {
+    color: $HeadingTxt;
 }
