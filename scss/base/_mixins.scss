@@ -6,3 +6,16 @@
         }
     }
 }
+
+@mixin hover-card ($color) {
+    @media (hover:hover) {
+        &:hover {
+            .card-icon {
+                fill: $color;
+            }
+            .card-title {
+                color: $color;
+            }
+        }
+    }
+}

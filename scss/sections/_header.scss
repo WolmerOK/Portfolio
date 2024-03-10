@@ -34,8 +34,8 @@
     transition: 0.3s;
 }
 
-@include hover-link ($HeadingTxt);
+@include hover-link ($headingTxt);
 
 .anchor-link:active {
-    color: $HeadingTxt;
+    color: $headingTxt;
 }

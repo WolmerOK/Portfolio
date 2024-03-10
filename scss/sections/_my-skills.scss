@@ -8,10 +8,35 @@
 }
 
 .skill-cards__card {
+    background-color: $bgSkillCard;
+
+    &--html {
+        @include hover-card ($html);
+    }
+
+    &--css {
+        @include hover-card ($css);
+    }
+
+    &--js {
+        @include hover-card ($js);
+    }
+
+    &--scss {
+        @include hover-card ($scss);
+    }
+    
+    &--git {
+        @include hover-card ($git);
+    }
 }
 
+
 .card-icon {
+    fill: #F0E3CA;
+    transition: 0.3s;
 }
 
 .card-title {
+    transition: 0.3s;
 }
