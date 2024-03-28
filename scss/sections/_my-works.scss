@@ -23,7 +23,59 @@
 .project-card {
     width: 320px;
     height: 320px;
+    position: relative;
+    overflow: hidden;
+
+    .context-title {
+        text-align: center;
+        margin-bottom: 16px;
+    }
 }
 
+
 .project-card__img {
+}
+
+.project-card__info {
+    position: absolute;
+    background-color: $projectCard;
+    width: 100%;
+    top: -100%;
+}
+
+.project-card__name {
+    border-bottom: 1px solid $contextColor;
+    width: 200px;
+    margin: auto;
+    padding: 40.5px 0 16px;
+}
+
+
+
+.project-card__stack {
+    text-align: center;
+}
+
+.project-card__description {
+    width: 219px;
+    margin: auto;
+    padding: 16px 0 40.5px;
+    
+}
+
+.project-card__text {
+    margin-bottom: 16px;
+}
+
+.wrapper-link {
+    text-align: center;
+}
+
+.other-page {
+    background-color: $buttonBg;
+    padding: 12px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    color: $txtColor;
+    font-size: 14px;
 }
