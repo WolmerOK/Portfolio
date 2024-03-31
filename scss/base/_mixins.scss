@@ -19,3 +19,13 @@
         }
     }
 }
+
+@mixin hover-info {
+    @media (hover:hover) {
+        &:hover {
+            .project-card__info {
+                transform: translateY(100%);
+            }
+        }
+    }
+}
