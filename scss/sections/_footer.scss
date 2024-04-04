@@ -1,0 +1,67 @@
+.footer {
+}
+
+.footer__content {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    padding: 64px 0;
+
+    .logo {
+        max-width: 165px;
+        display: inline-block;
+        margin-bottom: 24px;
+    }
+
+    .context-title {
+        margin-bottom: 16px;
+    }
+    
+}
+
+.invite {
+    max-width: 213px;
+    padding-top: 10px;
+}
+
+
+.invite__txt {
+    font-size: 20px;
+}
+
+.contacts {
+}
+
+.social-list-big {
+    display: flex;
+    gap: 48px;
+}
+
+.social-list-big__item {
+}
+
+.social-list-small {
+
+}
+
+.social-list-small__item {
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.contact-link__icon {
+    width: 33px;
+    height: 33px;
+}
+
+.contact-link__text-holder {
+    font-size: 24px;
+    color: $contextColor;
+}
