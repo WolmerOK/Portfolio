@@ -29,3 +29,16 @@
         }
     }
 }
+
+@mixin hover-links ($colorImg, $colorTxt) {
+    @media (hover:hover) {
+        &:hover {
+            .contact-link__icon {
+                fill: $colorImg;
+            }
+            .contact-link__text-holder {
+                color: $colorTxt;
+            }
+        }
+    }
+}

@@ -54,14 +54,20 @@
     display: flex;
     align-items: center;
     column-gap: 16px;
+
+    @include hover-links ( $contextColor, $txtColor);
 }
 
 .contact-link__icon {
     width: 33px;
     height: 33px;
+    fill: #f0e3ca;
+    transition: 0.5s;
 }
 
 .contact-link__text-holder {
     font-size: 24px;
     color: $contextColor;
+    transition: 0.5s;
 }
+
