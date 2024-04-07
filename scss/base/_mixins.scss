@@ -6,3 +6,39 @@
         }
     }
 }
+
+@mixin hover-card ($color) {
+    @media (hover:hover) {
+        &:hover {
+            .card-icon {
+                fill: $color;
+            }
+            .card-title {
+                color: $color;
+            }
+        }
+    }
+}
+
+@mixin hover-info {
+    @media (hover:hover) {
+        &:hover {
+            .project-card__info {
+                transform: translateY(100%);
+            }
+        }
+    }
+}
+
+@mixin hover-links ($colorImg, $colorTxt) {
+    @media (hover:hover) {
+        &:hover {
+            .contact-link__icon {
+                fill: $colorImg;
+            }
+            .contact-link__text-holder {
+                color: $colorTxt;
+            }
+        }
+    }
+}
