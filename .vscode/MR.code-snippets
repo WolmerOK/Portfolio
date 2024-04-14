@@ -1,0 +1,10 @@
+{
+	"Print to console": {
+		"scope": "c",
+		"prefix": "mR",
+		"body": [
+			"@media (max-width: '$1') {\n\n}",
+		],
+		"description": "Log output to console"
+	}
+}
