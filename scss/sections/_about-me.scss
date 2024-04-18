@@ -7,6 +7,11 @@
     padding: 64px 0;
     justify-content: center;
     column-gap: 32px;
+
+    @media (max-width: 768px) {
+    flex-direction: column;
+    row-gap: 32px;
+    }
 }
 
 .about-me__img {
